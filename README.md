@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# SLOPE-LIKE GAME
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+1. My app is recreation of the slope game. It mimics the vibe and gameplay in many ways, with the steering control being the phone's rotation rather than the keyboard.
 
-## Get started
+2. My two screens are the Home/Score screen and the Game screen. The home screen simply shows the users locally stored high score (survives closing/reponening the app, but does not save on uninstall/clear on EXPO app) and a button that takes the user to the game screen. The game screen has left/right buttons for the user click, but the game is meant to be played via rotating the phone screen. User will use this to dodge obstacles while the game gets progressively harder and harder.
 
-1. Install dependencies
+3. How to set up and run the app
 
-   ```bash
-   npm install
-   ```
+   1. Open a terminal in this project folder.
+   2. Install dependencies:
+      npm install
+      Start the Expo development server:
+      npx expo start
+      Launch the app:
+	- Press a to run on Android emulator
+	- Press i to run on iOS simulator (macOS only)
+	- Press w to run on web
+	- Or scan the QR code with Expo Go on your phone
 
-2. Start the app
+   3. Libraries used by this project
+   - expo
+   - react
+   - react-native
+   - expo-router
+   - @react-native-async-storage/async-storage
+   - expo-sensors
+   - @react-three/fiber
+   - three
+   - expo-gl
+   - react-native-safe-area-context
+   - @react-navigation/native
+   - @react-navigation/bottom-tabs
+   - @react-navigation/elements
+   - react-native-screens
+   - react-native-gesture-handler
+   - react-native-reanimated
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   4. Extra dependencies or API keys
+   - No API keys are required.
+   - No extra private services are required.
+   - Everything needed is already declared in package.json and installed with npm install.
+   
+4. One thing that surprised me about mobile development is how easy it is. It's definitely AI helps so much, but in hindsight the React Native framework is very similar to React and is understandable even for my first time seeing it. It really wasn't that hard to what I though it would be.
