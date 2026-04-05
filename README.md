@@ -40,4 +40,4 @@
    - No extra private services are required.
    - Everything needed is already declared in package.json and installed with npm install.
    
-4. One thing that surprised me about mobile development is how easy it is. It's definitely AI helps so much, but in hindsight the React Native framework is very similar to React and is understandable even for my first time seeing it. It really wasn't that hard to what I though it would be.
+4. One thing that surprised me about mobile development is how easy it is. It's definitely because AI helps so much, but in hindsight the React Native framework is very similar to React and is quite easuy to pick up and read even for my first time. It really wasn't as hard as I thought it would be.
